@@ -123,7 +123,7 @@ if __name__ == '__main__':
 
     # 数据集所在根目录
     # https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz
-    parser.add_argument('--data-path', type=str,
+    parser.add_argument('E:\github_data\DeepLearning', type=str,
                         default="/data/flower_photos")
     parser.add_argument('--model-name', default='', help='create model name')
 
